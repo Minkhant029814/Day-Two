@@ -1,0 +1,141 @@
+header{
+    background-color: orange;
+    
+}
+/* Navigation Bar sheet */
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    margin-top: 20px;
+}
+.links a{
+    text-decoration: none;
+    margin: 20px;
+    color: honeydew;
+    font-size: 20px;
+}
+.numbers a{
+    text-decoration:none;
+    color: honeydew;
+    font-size: 20px;
+
+}
+.imageSection{
+    background-image: url(backgoround_img.jpg);
+    height: 30rem;
+    padding-top: 10rem;
+}
+.imageSection>h2{
+    
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.imageSection>p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+.imageSection>a{
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block; 
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 15px;
+    text-align: center;
+}
+.dataList{
+    padding:10px 0;
+    background-color:rgb(204, 202, 197);
+}
+.section{
+    width: 70%;
+    margin-left: 15%;
+   
+}
+.lists{
+    background-color: aliceblue;
+}
+.lists dd{
+    padding:20px;
+}
+.TitleClass{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+.TitleClass p{
+    color: white;
+}
+/* Style Sheet for Table */
+
+.table{
+    width: 70%;
+    margin: 20px 15%;
+}
+table thead{
+    background-color: gray;
+}
+#sub,#tax,#total{
+    background-color: gray;
+}
+table{
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid blue;
+    border-collapse: collapse;
+}
+table tr,table td{
+    border: 2px solid blue;
+    text-align: center;
+    padding: 10px 0;
+}
+/* style sheet for footer */
+footer{
+    margin-top: 20px;
+    background-color:black;
+    color:honeydew;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Under Line Effects */
+.TitleUnderLine{
+    width: 80%;
+    margin-left: 10%;
+   
+    text-align: center;
+}
+.underLine{
+    display: flex;
+    margin-left: 30%;
+    
+    
+}
+.line{
+    /* content: ''; */
+    background-color: orange;
+    height: 2px;
+    
+    width: 25%;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+#circle{
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 0 10px;
+}
+
