@@ -9,13 +9,17 @@ nav{
     justify-content: space-between;
 }
 .links{
-    margin-top: 20px;
+    margin-top: 15px;
 }
-.links a{
-    text-decoration: none;
-    margin: 20px;
-    color: honeydew;
+.links ul{
+    display: flex;
+    
+}
+.links ul li{
+    list-style: none;
+    margin-left: 25px;
     font-size: 20px;
+    color: white;
 }
 .numbers a{
     text-decoration:none;
